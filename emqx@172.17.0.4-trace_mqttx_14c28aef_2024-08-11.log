@@ -1,0 +1,335 @@
+2024-08-11T09:15:40.419080+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: CONNECT(Q0, R0, D0, ClientId=mqttx_14c28aef, ProtoName=MQTT, ProtoVsn=5, CleanStart=true, KeepAlive=60, Username=test-user-name, Password=******, Will(Q0, R1, Topic=test/111/online Payload=false))
+2024-08-11T09:15:40.419680+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: CONNACK(Q0, R0, D0, AckFlags=0, ReasonCode=0)
+2024-08-11T09:16:04.713616+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=44448 TopicFilters=[/sys/device/87/test1234/cmd(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:16:04.713953+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:52084 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/cmd
+2024-08-11T09:16:04.714217+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=44448, ReasonCodes=[0])
+2024-08-11T09:16:38.787116+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=44449 TopicFilters=[/sys/device/87/test1234/post_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:16:38.787460+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:52084 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/post_reply
+2024-08-11T09:16:38.787897+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=44449, ReasonCodes=[0])
+2024-08-11T09:16:45.413559+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q2, R0, D0, Topic=shellies/shelly1pm-485519CBA83A/relay/0/command, PacketId=44450, Payload=on)
+2024-08-11T09:16:45.413897+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: shellies/shelly1pm-485519CBA83A/relay/0/command, payload: on
+2024-08-11T09:16:45.414147+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: PUBREC(Q0, R0, D0, PacketId=44450, ReasonCode=16)
+2024-08-11T09:16:45.418271+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBREL(Q1, R0, D0, PacketId=44450, ReasonCode=0)
+2024-08-11T09:16:45.418370+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: PUBCOMP(Q0, R0, D0, PacketId=44450, ReasonCode=0)
+2024-08-11T09:16:49.170914+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=shellies/shelly1pm-485519CBA83A/relay/0/command, PacketId=undefined, Payload=on)
+2024-08-11T09:16:49.171091+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: shellies/shelly1pm-485519CBA83A/relay/0/command, payload: on
+2024-08-11T09:16:50.432113+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=shellies/shelly1pm-485519CBA83A/relay/0/command, PacketId=undefined, Payload=on)
+2024-08-11T09:16:50.432239+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: shellies/shelly1pm-485519CBA83A/relay/0/command, payload: on
+2024-08-11T09:16:51.852819+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=shellies/shelly1pm-485519CBA83A/relay/0/command, PacketId=undefined, Payload=on)
+2024-08-11T09:16:51.853038+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: shellies/shelly1pm-485519CBA83A/relay/0/command, payload: on
+2024-08-11T09:16:53.474826+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=shellies/shelly1pm-485519CBA83A/relay/0/command, PacketId=undefined, Payload=on)
+2024-08-11T09:16:53.475051+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: shellies/shelly1pm-485519CBA83A/relay/0/command, payload: on
+2024-08-11T09:16:55.370174+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=shellies/shelly1pm-485519CBA83A/relay/0/command, PacketId=undefined, Payload=on)
+2024-08-11T09:16:55.370361+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: shellies/shelly1pm-485519CBA83A/relay/0/command, payload: on
+2024-08-11T09:16:56.624246+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=shellies/shelly1pm-485519CBA83A/relay/0/command, PacketId=undefined, Payload=on)
+2024-08-11T09:16:56.624459+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: shellies/shelly1pm-485519CBA83A/relay/0/command, payload: on
+2024-08-11T09:16:58.358376+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=shellies/shelly1pm-485519CBA83A/relay/0/command, PacketId=undefined, Payload=on)
+2024-08-11T09:16:58.358589+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: shellies/shelly1pm-485519CBA83A/relay/0/command, payload: on
+2024-08-11T09:16:59.946794+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=shellies/shelly1pm-485519CBA83A/relay/0/command, PacketId=undefined, Payload=on)
+2024-08-11T09:16:59.947047+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: shellies/shelly1pm-485519CBA83A/relay/0/command, payload: on
+2024-08-11T09:17:01.399752+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=shellies/shelly1pm-485519CBA83A/relay/0/command, PacketId=undefined, Payload=on)
+2024-08-11T09:17:01.399991+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: shellies/shelly1pm-485519CBA83A/relay/0/command, payload: on
+2024-08-11T09:17:02.105853+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=shellies/shelly1pm-485519CBA83A/relay/0/command, PacketId=undefined, Payload=on)
+2024-08-11T09:17:02.106438+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: shellies/shelly1pm-485519CBA83A/relay/0/command, payload: on
+2024-08-11T09:17:27.978715+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:27.979075+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:28.516383+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:28.516757+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:28.907339+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:28.907571+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:36.914201+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:36.914403+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:37.332397+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:37.332692+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:37.700262+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:37.700463+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:38.706996+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:38.707194+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:38.965813+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:38.966029+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:39.165751+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:39.166020+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:39.313959+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:39.314239+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:39.495408+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:39.495752+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:39.661783+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:39.662026+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:39.842849+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:39.843074+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:40.030153+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:40.030543+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:40.214687+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:40.214927+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:40.403890+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:40.404132+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:40.603102+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:40.603339+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:40.767169+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:40.767383+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:40.966189+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:40.966585+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:41.158830+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:41.158958+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:41.307341+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:41.307590+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:41.507311+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:41.507556+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:41.660832+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:41.661897+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:41.882920+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:41.883156+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:44.808384+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:44.808610+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:46.120559+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:46.120847+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:47.564899+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:47.565101+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:49.136354+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:49.137129+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:50.765747+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:50.765956+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:53.245776+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:53.246004+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:17:54.373308+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:17:54.373520+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:18:55.031595+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:18:55.031798+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:19:07.086004+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:07.086305+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:07.933055+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:07.933457+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:08.602488+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:08.602707+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:09.057547+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:09.057775+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:09.522480+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:09.522708+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:09.945583+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:09.945855+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:10.186758+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:10.187342+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:10.360229+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:10.360472+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:10.534364+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:10.535076+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:10.727109+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:10.727362+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:10.905091+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:10.905428+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:11.102419+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:11.102622+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:11.294966+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:11.295227+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:11.502760+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:11.502986+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:11.671664+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:11.671927+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:11.883791+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:11.884044+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:12.260789+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:12.261003+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:12.454901+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:19:12.455130+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:19:38.896007+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=44451 TopicFilters=[/sys/device/87/test1234/energy_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:19:38.896353+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:52084 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/energy_reply
+2024-08-11T09:19:38.896876+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=44451, ReasonCodes=[0])
+2024-08-11T09:19:57.368248+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=44452 TopicFilters=[/sys/device/87/test1234/raw_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:19:57.368719+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:52084 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/raw_reply
+2024-08-11T09:19:57.369142+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=44452, ReasonCodes=[0])
+2024-08-11T09:20:23.890153+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=44453 TopicFilters=[/sys/device/87/test1234/ota/upgrade_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:20:23.890683+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:52084 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/ota/upgrade_reply
+2024-08-11T09:20:23.891067+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=44453, ReasonCodes=[0])
+2024-08-11T09:20:34.251141+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=44454 TopicFilters=[/sys/device/87/test1234/ota/info_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:20:34.251601+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:52084 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/ota/info_reply
+2024-08-11T09:20:34.252026+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=44454, ReasonCodes=[0])
+2024-08-11T09:21:34.247225+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:21:34.247462+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:22:34.251061+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:22:34.251201+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:23:34.255032+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:23:34.255173+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:24:12.936871+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:12.937232+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:13.381270+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:13.381695+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:13.624596+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:13.624839+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:13.808451+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:13.808697+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:14.032081+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:14.032344+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:14.331832+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:14.332030+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:14.543675+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:14.543898+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:14.744208+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:14.744488+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:14.944239+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:14.944487+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:15.102949+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:15.103899+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:52084 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:23.422793+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:52084 msg: mqtt_packet_received, packet: DISCONNECT(Q0, R0, D0, ReasonCode=0)
+2024-08-11T09:24:23.422949+00:00 [SOCKET] mqttx_14c28aef@172.17.0.1:52084 msg: socket_force_closed, reason: normal
+2024-08-11T09:24:23.423260+00:00 [SOCKET] mqttx_14c28aef@172.17.0.1:52084 msg: emqx_connection_terminated, reason: {shutdown,normal}
+2024-08-11T09:24:27.331338+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: CONNECT(Q0, R0, D0, ClientId=mqttx_14c28aef, ProtoName=MQTT, ProtoVsn=5, CleanStart=true, KeepAlive=60, Username=test-user-name, Password=******, Will(Q0, R1, Topic=test/111/online Payload=false))
+2024-08-11T09:24:27.331675+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: CONNACK(Q0, R0, D0, AckFlags=0, ReasonCode=0)
+2024-08-11T09:24:27.367768+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=18067 TopicFilters=[/sys/device/87/test1234/cmd(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:24:27.367925+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:43526 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/cmd
+2024-08-11T09:24:27.368077+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=18067, ReasonCodes=[0])
+2024-08-11T09:24:27.469692+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=18068 TopicFilters=[/sys/device/87/test1234/post_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:24:27.470301+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:43526 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/post_reply
+2024-08-11T09:24:27.470806+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=18068, ReasonCodes=[0])
+2024-08-11T09:24:27.572155+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=18069 TopicFilters=[/sys/device/87/test1234/energy_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:24:27.572446+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:43526 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/energy_reply
+2024-08-11T09:24:27.572680+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=18069, ReasonCodes=[0])
+2024-08-11T09:24:27.673443+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=18070 TopicFilters=[/sys/device/87/test1234/raw_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:24:27.673733+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:43526 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/raw_reply
+2024-08-11T09:24:27.674009+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=18070, ReasonCodes=[0])
+2024-08-11T09:24:27.775953+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=18071 TopicFilters=[/sys/device/87/test1234/ota/upgrade_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:24:27.776602+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:43526 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/ota/upgrade_reply
+2024-08-11T09:24:27.777006+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=18071, ReasonCodes=[0])
+2024-08-11T09:24:27.876220+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=18072 TopicFilters=[/sys/device/87/test1234/ota/info_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:24:27.876553+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:43526 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/ota/info_reply
+2024-08-11T09:24:27.876824+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=18072, ReasonCodes=[0])
+2024-08-11T09:24:31.623620+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: UNSUBSCRIBE(Q1, R0, D0, PacketId=18073 TopicFilters=[/sys/device/87/test1234/ota/info_reply])
+2024-08-11T09:24:31.623925+00:00 [UNSUBSCRIBE] mqttx_14c28aef@172.17.0.1:43526 msg: unsubscribe, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: [], subid: mqttx_14c28aef], topic: /sys/device/87/test1234/ota/info_reply
+2024-08-11T09:24:31.624011+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: UNSUBACK(Q0, R0, D0, PacketId=18073)
+2024-08-11T09:24:33.410792+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=18074 TopicFilters=[/sys/device/87/test1234/ota/info_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:24:33.411060+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:43526 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/ota/info_reply
+2024-08-11T09:24:33.411335+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=18074, ReasonCodes=[0])
+2024-08-11T09:24:35.025734+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:35.025989+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:35.207618+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:35.207839+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:35.395463+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:35.395874+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:35.572705+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:35.572904+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:35.758939+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:35.759154+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:35.958950+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:35.959554+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:36.166085+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:36.166335+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:36.378211+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:36.378432+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:36.573013+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:36.573265+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:36.772273+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:36.772491+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:36.965948+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:36.966184+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:37.162572+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:37.162873+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:37.382341+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:37.382614+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:38.581627+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:38.581830+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:41.663417+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:41.663955+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:43.899987+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:43.900216+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:45.593951+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:45.594198+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:47.008605+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:47.008827+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:50.851472+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:50.851689+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:24:56.539325+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:24:56.539539+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:25:56.545363+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:25:56.545913+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:26:56.549364+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:26:56.549504+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:27:56.554145+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:27:56.554410+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:28:56.558147+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:28:56.558367+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:29:56.563147+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:29:56.563357+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:30:56.572015+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:30:56.572177+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:31:56.579900+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:31:56.580119+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:32:56.591223+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:32:56.591774+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:33:56.598399+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:33:56.598550+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:34:56.610117+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:34:56.610991+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:35:56.626351+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:35:56.626532+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:36:56.636818+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:36:56.636998+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:37:56.645878+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:37:56.647882+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:38:56.662891+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:38:56.663025+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:39:56.665836+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:39:56.665978+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:40:56.674704+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:40:56.674870+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:41:56.682225+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PINGREQ(Q0, R0, D0)
+2024-08-11T09:41:56.682412+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_sent, packet: PINGRESP(Q0, R0, D0)
+2024-08-11T09:42:29.429480+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:29.430187+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:29.591851+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:29.592158+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:29.774096+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:29.774388+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:29.953508+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:29.953712+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:43526 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:33.908367+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:43526 msg: mqtt_packet_received, packet: DISCONNECT(Q0, R0, D0, ReasonCode=0)
+2024-08-11T09:42:33.908672+00:00 [SOCKET] mqttx_14c28aef@172.17.0.1:43526 msg: socket_force_closed, reason: normal
+2024-08-11T09:42:33.909899+00:00 [SOCKET] mqttx_14c28aef@172.17.0.1:43526 msg: emqx_connection_terminated, reason: {shutdown,normal}
+2024-08-11T09:42:37.195885+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: CONNECT(Q0, R0, D0, ClientId=mqttx_14c28aef, ProtoName=MQTT, ProtoVsn=5, CleanStart=true, KeepAlive=60, Username=test-user-name, Password=******, Will(Q0, R1, Topic=test/111/online Payload=false))
+2024-08-11T09:42:37.196988+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_sent, packet: CONNACK(Q0, R0, D0, AckFlags=0, ReasonCode=0)
+2024-08-11T09:42:37.228881+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=20473 TopicFilters=[/sys/device/87/test1234/cmd(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:42:37.229356+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:57268 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/cmd
+2024-08-11T09:42:37.229724+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=20473, ReasonCodes=[0])
+2024-08-11T09:42:37.331855+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=20474 TopicFilters=[/sys/device/87/test1234/post_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:42:37.332362+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:57268 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/post_reply
+2024-08-11T09:42:37.332677+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=20474, ReasonCodes=[0])
+2024-08-11T09:42:37.431038+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=20475 TopicFilters=[/sys/device/87/test1234/energy_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:42:37.431486+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:57268 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/energy_reply
+2024-08-11T09:42:37.431754+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=20475, ReasonCodes=[0])
+2024-08-11T09:42:37.536658+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=20476 TopicFilters=[/sys/device/87/test1234/raw_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:42:37.536926+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:57268 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/raw_reply
+2024-08-11T09:42:37.537110+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=20476, ReasonCodes=[0])
+2024-08-11T09:42:37.636457+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=20477 TopicFilters=[/sys/device/87/test1234/ota/upgrade_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:42:37.636819+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:57268 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/ota/upgrade_reply
+2024-08-11T09:42:37.637202+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=20477, ReasonCodes=[0])
+2024-08-11T09:42:37.737963+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: SUBSCRIBE(Q1, R0, D0, PacketId=20478 TopicFilters=[/sys/device/87/test1234/ota/info_reply(#{nl => 0,qos => 0,rap => 0,rh => 0})])
+2024-08-11T09:42:37.738592+00:00 [SUBSCRIBE] mqttx_14c28aef@172.17.0.1:57268 msg: subscribe, sub_id: mqttx_14c28aef, sub_opts: [nl: 0, qos: 0, rap: 0, rh: 0, sub_props: []], topic: /sys/device/87/test1234/ota/info_reply
+2024-08-11T09:42:37.738826+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_sent, packet: SUBACK(Q0, R0, D0, PacketId=20478, ReasonCodes=[0])
+2024-08-11T09:42:39.752320+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:39.752655+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:39.964073+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:39.964296+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:40.146900+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:40.147126+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:40.338689+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:40.339012+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:40.513584+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:40.513796+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:40.713547+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:40.713810+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:40.873423+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:40.873690+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:41.053887+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:41.054120+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:41.221704+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:41.222022+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:41.424760+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:41.425040+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:41.598083+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:41.598348+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:41.787909+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:41.788135+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:41.956728+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: PUBLISH(Q0, R0, D0, Topic=/sys/device/87/test1234/post, PacketId=undefined, Payload={"switch":"on"})
+2024-08-11T09:42:41.956950+00:00 [PUBLISH] mqttx_14c28aef@172.17.0.1:57268 msg: publish_to, topic: /sys/device/87/test1234/post, payload: {"switch":"on"}
+2024-08-11T09:42:43.013699+00:00 [MQTT] mqttx_14c28aef@172.17.0.1:57268 msg: mqtt_packet_received, packet: DISCONNECT(Q0, R0, D0, ReasonCode=0)
+2024-08-11T09:42:43.013858+00:00 [SOCKET] mqttx_14c28aef@172.17.0.1:57268 msg: socket_force_closed, reason: normal
+2024-08-11T09:42:43.014154+00:00 [SOCKET] mqttx_14c28aef@172.17.0.1:57268 msg: emqx_connection_terminated, reason: {shutdown,normal}
+2024-08-11T09:42:46.708147+00:00 [API] mqttx_14c28aef@ msg: trace_stopping, 
